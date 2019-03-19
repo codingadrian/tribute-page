@@ -11,6 +11,6 @@ To code this project I used Markdown, HTML and CSS.
 This is a personal project, but you can contribute by giving advice. I will appreciate it.
 
 ## Credits
-I took the idea of building a Tribute Page from [Link] (https://www.freecodecamp.org/ freecodecamp)freecodecamp
+I took the idea of building a Tribute Page from [freecodecamp] (https://www.freecodecamp.org/)
 
 ### By Adrian Robles F.
