@@ -10,7 +10,6 @@
 
 html, body {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
     min-width: 300px;
     color: #333;
 }
@@ -19,17 +18,18 @@ html, body {
 #main {
     margin: 20px auto;
     padding: 15px;
-    border: 1px solid;
+    border: 0 solid;
     border-radius: 5px;
     background: #eee;
+    text-align: center;
 }
 
 /*Image*/
 #img-div {
-    margin: -5px;
-    margin-top: 20px;
-    width: 100%;
-    border: 5px solid white;
+    margin: 0 auto;
+    width: 224px;
+    height: 306px;
+    border: 2px solid black;
     background: whitesmoke;
 
 }
@@ -37,17 +37,17 @@ html, body {
 /*Article*/
 
 #tribute {
-    margin: -5px;
     margin-top: 20px;
     width: 100%;
     border: 5px solid white;
     background: whitesmoke;
+    text-align: center;
 }
 
 ul {
-    max-width: 500px;
+    width: 100%;
     margin:0 auto;
-    text-align: left;
+    text-align: center;
 }
 
 li {
@@ -66,11 +66,17 @@ article {
 
 /*Quote*/
 
-#quote {
-    font-style: italic;
-    margin: -5px;
-    margin-top: 20px;
+.quote {
+    
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 20px;
     width: 100%;
-    border: 5px solid white;
     background: whitesmoke;
+    text-align: center;
+}
+
+.quote #author {
+    font-style: italic;
+    text-align: left;
 }
